@@ -22,6 +22,10 @@ static void disp_init(void);
 
 static void disp_flush(lv_disp_drv_t * disp_drv, const lv_area_t * area, lv_color_t * color_p);
 
+//_attribute_ram_code_sec_ void hspi_irq_handler(void){
+//	while(spi_is_busy(HSPI_MODULE)){};
+//	lv_disp_flush_ready(disp_drv);
+//}
 
 void lv_port_disp_init(void)
 {
@@ -32,7 +36,8 @@ void lv_port_disp_init(void)
     /* Example for 1) */
     static lv_disp_draw_buf_t draw_buf_dsc_1;
     static lv_color_t buf_1[MY_DISP_HOR_RES * 10];                          /*A buffer for 10 rows*/
-    lv_disp_draw_buf_init(&draw_buf_dsc_1, buf_1, NULL, MY_DISP_HOR_RES * 10);   /*Initialize the display buffer*/
+    static lv_color_t buf_2[MY_DISP_HOR_RES * 10];
+    lv_disp_draw_buf_init(&draw_buf_dsc_1, buf_1, buf_2, MY_DISP_HOR_RES * 10);   /*Initialize the display buffer*/
 
 
 
@@ -90,16 +95,13 @@ static void disp_flush(lv_disp_drv_t * disp_drv, const lv_area_t * area, lv_colo
     	int32_t y;
         int32_t Width = area->x2 - area->x1 +1;
         LCD_setWindow(area->x1,area->y1,area->x2,area->y2);
-        gpio_write(DC_Pin,1);
+        gpio_write(DC_Pin,1);  //send data
 
         u8 *k = color_p;
         for(y = area->y1; y <= area->y2; y++) {
-
         		spi_master_write(HSPI_MODULE,k,2*Width);
         		k+=2*Width;
         		wd_clear();
-
-
         }
     }
     lv_disp_flush_ready(disp_drv);

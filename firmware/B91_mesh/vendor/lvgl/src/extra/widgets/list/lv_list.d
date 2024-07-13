@@ -3,7 +3,7 @@ vendor/lvgl/src/extra/widgets/list/lv_list.d vendor/lvgl/src/extra/widgets/list/
  ../vendor/lvgl/src/extra/widgets/list/lv_list.h \
  ../vendor/lvgl/src/extra/widgets/list/../../../core/lv_obj.h \
  ../vendor/lvgl/src/extra/widgets/list/../../../core/../lv_conf_internal.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
  ../vendor/lvgl/src/extra/widgets/list/../../../core/../lv_conf_kconfig.h \
  ../vendor/lvgl/src/extra/widgets/list/../../../core/../../lv_conf.h \
  ../vendor/lvgl/src/extra/widgets/list/../../../core/../misc/lv_style.h \
@@ -50,7 +50,7 @@ vendor/lvgl/src/extra/widgets/list/lv_list.d vendor/lvgl/src/extra/widgets/list/
  ../vendor/lvgl/src/extra/widgets/list/../../../core/../hal/../draw/sw/../../misc/lv_style.h \
  ../vendor/lvgl/src/extra/widgets/list/../../../core/../hal/../draw/sw/lv_draw_sw_dither.h \
  ../vendor/lvgl/src/extra/widgets/list/../../../core/../hal/../draw/sw/../../core/lv_obj_pos.h \
- ../vendor/lvgl/src/extra/widgets/list/../../../core/../hal/../draw/sw/../../core/../misc/lv_area.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/misc/lv_area.h \
  ../vendor/lvgl/src/extra/widgets/list/../../../core/../hal/../draw/lv_draw_label.h \
  ../vendor/lvgl/src/extra/widgets/list/../../../core/../hal/../draw/../misc/lv_bidi.h \
  ../vendor/lvgl/src/extra/widgets/list/../../../core/../hal/../draw/lv_draw_img.h \
@@ -107,7 +107,7 @@ vendor/lvgl/src/extra/widgets/list/lv_list.d vendor/lvgl/src/extra/widgets/list/
 
 ../vendor/lvgl/src/extra/widgets/list/../../../core/../lv_conf_internal.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
 
 ../vendor/lvgl/src/extra/widgets/list/../../../core/../lv_conf_kconfig.h:
 
@@ -201,7 +201,7 @@ vendor/lvgl/src/extra/widgets/list/lv_list.d vendor/lvgl/src/extra/widgets/list/
 
 ../vendor/lvgl/src/extra/widgets/list/../../../core/../hal/../draw/sw/../../core/lv_obj_pos.h:
 
-../vendor/lvgl/src/extra/widgets/list/../../../core/../hal/../draw/sw/../../core/../misc/lv_area.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/misc/lv_area.h:
 
 ../vendor/lvgl/src/extra/widgets/list/../../../core/../hal/../draw/lv_draw_label.h:
 

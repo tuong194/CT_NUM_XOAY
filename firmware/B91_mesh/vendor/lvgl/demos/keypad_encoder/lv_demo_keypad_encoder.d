@@ -5,7 +5,7 @@ vendor/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.d vendor/lvgl/demos/keyp
  ../vendor/lvgl/demos/keypad_encoder/../../lvgl.h \
  ../vendor/lvgl/demos/keypad_encoder/../../src/misc/lv_log.h \
  ../vendor/lvgl/demos/keypad_encoder/../../src/misc/../lv_conf_internal.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
  ../vendor/lvgl/demos/keypad_encoder/../../src/misc/../lv_conf_kconfig.h \
  ../vendor/lvgl/demos/keypad_encoder/../../src/misc/../../lv_conf.h \
  ../vendor/lvgl/demos/keypad_encoder/../../src/misc/lv_types.h \
@@ -28,7 +28,7 @@ vendor/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.d vendor/lvgl/demos/keyp
  ../vendor/lvgl/demos/keypad_encoder/../../src/hal/../draw/../misc/../font/../lv_conf_internal.h \
  ../vendor/lvgl/demos/keypad_encoder/../../src/hal/../draw/../misc/../font/lv_symbol_def.h \
  ../vendor/lvgl/demos/keypad_encoder/../../src/hal/../draw/../misc/../font/../misc/lv_area.h \
- /cygdrive/c/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/lvgl/src/lv_conf_internal.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h \
  ../vendor/lvgl/demos/keypad_encoder/../../src/hal/../draw/../misc/lv_color.h \
  ../vendor/lvgl/demos/keypad_encoder/../../src/hal/../draw/../misc/../lv_conf_internal.h \
  ../vendor/lvgl/demos/keypad_encoder/../../src/hal/../draw/../misc/lv_assert.h \
@@ -222,7 +222,7 @@ vendor/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.d vendor/lvgl/demos/keyp
  ../vendor/lvgl/demos/keypad_encoder/../../src/extra/widgets/win/lv_win.h \
  ../vendor/lvgl/demos/keypad_encoder/../../src/extra/widgets/win/../../../lvgl.h \
  ../vendor/lvgl/demos/keypad_encoder/../../src/extra/widgets/colorwheel/lv_colorwheel.h \
- ../vendor/lvgl/demos/keypad_encoder/../../src/extra/widgets/colorwheel/../../../lvgl.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lvgl.h \
  ../vendor/lvgl/demos/keypad_encoder/../../src/extra/widgets/led/lv_led.h \
  ../vendor/lvgl/demos/keypad_encoder/../../src/extra/widgets/led/../../../lvgl.h \
  ../vendor/lvgl/demos/keypad_encoder/../../src/extra/widgets/imgbtn/lv_imgbtn.h \
@@ -244,7 +244,7 @@ vendor/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.d vendor/lvgl/demos/keyp
 
 ../vendor/lvgl/demos/keypad_encoder/../../src/misc/../lv_conf_internal.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
 
 ../vendor/lvgl/demos/keypad_encoder/../../src/misc/../lv_conf_kconfig.h:
 
@@ -290,7 +290,7 @@ vendor/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.d vendor/lvgl/demos/keyp
 
 ../vendor/lvgl/demos/keypad_encoder/../../src/hal/../draw/../misc/../font/../misc/lv_area.h:
 
-/cygdrive/c/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/lvgl/src/lv_conf_internal.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h:
 
 ../vendor/lvgl/demos/keypad_encoder/../../src/hal/../draw/../misc/lv_color.h:
 
@@ -678,7 +678,7 @@ vendor/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.d vendor/lvgl/demos/keyp
 
 ../vendor/lvgl/demos/keypad_encoder/../../src/extra/widgets/colorwheel/lv_colorwheel.h:
 
-../vendor/lvgl/demos/keypad_encoder/../../src/extra/widgets/colorwheel/../../../lvgl.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lvgl.h:
 
 ../vendor/lvgl/demos/keypad_encoder/../../src/extra/widgets/led/lv_led.h:
 

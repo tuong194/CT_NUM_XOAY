@@ -2,7 +2,7 @@ vendor/lvgl/src/core/lv_disp.d vendor/lvgl/src/core/lv_disp.o: \
  ../vendor/lvgl/src/core/lv_disp.c ../vendor/lvgl/src/core/lv_disp.h \
  ../vendor/lvgl/src/core/../hal/lv_hal.h \
  ../vendor/lvgl/src/core/../hal/lv_hal_disp.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
  ../vendor/lvgl/src/core/../hal/lv_hal.h \
  ../vendor/lvgl/src/core/../hal/../draw/lv_draw.h \
  ../vendor/lvgl/src/core/../hal/../draw/../lv_conf_internal.h \
@@ -93,7 +93,7 @@ vendor/lvgl/src/core/lv_disp.d vendor/lvgl/src/core/lv_disp.o: \
 
 ../vendor/lvgl/src/core/../hal/lv_hal_disp.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
 
 ../vendor/lvgl/src/core/../hal/lv_hal.h:
 

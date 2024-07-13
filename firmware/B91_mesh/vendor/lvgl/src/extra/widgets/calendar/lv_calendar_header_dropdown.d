@@ -3,7 +3,7 @@ vendor/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.d vendor/lvgl
  ../vendor/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/lv_obj.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../lv_conf_internal.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../lv_conf_kconfig.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../../lv_conf.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../misc/lv_style.h \
@@ -11,7 +11,7 @@ vendor/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.d vendor/lvgl
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../misc/../font/../lv_conf_internal.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../misc/../font/lv_symbol_def.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../misc/../font/../misc/lv_area.h \
- ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../misc/../font/../misc/../lv_conf_internal.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../misc/lv_color.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../misc/../lv_conf_internal.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../misc/lv_assert.h \
@@ -41,16 +41,16 @@ vendor/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.d vendor/lvgl
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/../misc/lv_color.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/../misc/lv_area.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/../misc/lv_fs.h \
- ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/../misc/../lv_conf_internal.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/../misc/lv_types.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/lv_img_cache.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/lv_draw_rect.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/sw/lv_draw_sw_gradient.h \
- ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/sw/../../misc/lv_color.h \
- ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/sw/../../misc/lv_style.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/misc/lv_color.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/misc/lv_style.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/sw/lv_draw_sw_dither.h \
- ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/sw/../../core/lv_obj_pos.h \
- /cygdrive/c/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/lvgl/src/misc/lv_area.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/core/lv_obj_pos.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/misc/lv_area.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/lv_draw_label.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/../misc/lv_bidi.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/lv_draw_img.h \
@@ -67,7 +67,7 @@ vendor/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.d vendor/lvgl
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../misc/lv_timer.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../misc/../lv_conf_internal.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../misc/../hal/lv_hal_tick.h \
- ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../misc/../hal/../lv_conf_internal.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/lv_hal_indev.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../lv_conf_internal.h \
  ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/lv_hal_tick.h \
@@ -105,7 +105,7 @@ vendor/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.d vendor/lvgl
 
 ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../lv_conf_internal.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
 
 ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../lv_conf_kconfig.h:
 
@@ -121,7 +121,7 @@ vendor/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.d vendor/lvgl
 
 ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../misc/../font/../misc/lv_area.h:
 
-../vendor/lvgl/src/extra/widgets/calendar/../../../core/../misc/../font/../misc/../lv_conf_internal.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h:
 
 ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../misc/lv_color.h:
 
@@ -181,7 +181,7 @@ vendor/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.d vendor/lvgl
 
 ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/../misc/lv_fs.h:
 
-../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/../misc/../lv_conf_internal.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h:
 
 ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/../misc/lv_types.h:
 
@@ -191,15 +191,15 @@ vendor/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.d vendor/lvgl
 
 ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/sw/lv_draw_sw_gradient.h:
 
-../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/sw/../../misc/lv_color.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/misc/lv_color.h:
 
-../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/sw/../../misc/lv_style.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/misc/lv_style.h:
 
 ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/sw/lv_draw_sw_dither.h:
 
-../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/sw/../../core/lv_obj_pos.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/core/lv_obj_pos.h:
 
-/cygdrive/c/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/lvgl/src/misc/lv_area.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/misc/lv_area.h:
 
 ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../draw/lv_draw_label.h:
 
@@ -233,7 +233,7 @@ vendor/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.d vendor/lvgl
 
 ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../misc/../hal/lv_hal_tick.h:
 
-../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/../misc/../hal/../lv_conf_internal.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h:
 
 ../vendor/lvgl/src/extra/widgets/calendar/../../../core/../hal/lv_hal_indev.h:
 

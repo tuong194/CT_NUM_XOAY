@@ -25,16 +25,16 @@ drivers/B91/spi.d drivers/B91/spi.o: ../drivers/B91/spi.c \
  ../drivers/B91/lib/include/plic.h ../drivers/B91/core.h \
  ../drivers/B91/lib/include/sys.h ../drivers/B91/reg_include/stimer_reg.h \
  ../common/compiler.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/common/config/user_config.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/user_config.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/proj/mcu/config.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/config.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/mesh/app_config_B91.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/version.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mesh_config.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/user_app/user_app_config.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/user_app/user_app_default.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/default_config.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/common/config/user_config.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/user_config.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/proj/mcu/config.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/config.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/mesh/app_config_B91.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/version.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mesh_config.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/user_app/user_app_config.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/user_app/user_app_default.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/default_config.h \
  ../drivers/B91/analog.h ../drivers/B91/dma.h \
  ../drivers/B91/reg_include/gpio_reg.h
 
@@ -102,25 +102,25 @@ drivers/B91/spi.d drivers/B91/spi.o: ../drivers/B91/spi.c \
 
 ../common/compiler.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/common/config/user_config.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/common/config/user_config.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/user_config.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/user_config.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/proj/mcu/config.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/proj/mcu/config.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/config.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/config.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/mesh/app_config_B91.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/mesh/app_config_B91.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/version.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/version.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mesh_config.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mesh_config.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/user_app/user_app_config.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/user_app/user_app_config.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/user_app/user_app_default.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/user_app/user_app_default.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/default_config.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/default_config.h:
 
 ../drivers/B91/analog.h:
 

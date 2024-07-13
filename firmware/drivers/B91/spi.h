@@ -844,6 +844,7 @@ static inline void spi_clr_irq_status(spi_sel_e spi_sel, spi_irq_status_e status
  */
 static inline void spi_set_irq_mask(spi_sel_e spi_sel, spi_irq_mask mask)
 {
+
    BM_SET(reg_spi_trans2(spi_sel), mask);
 }
 /**

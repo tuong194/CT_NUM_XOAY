@@ -4,7 +4,7 @@ vendor/lvgl/examples/widgets/btn/lv_example_btn_2.d vendor/lvgl/examples/widgets
  ../vendor/lvgl/examples/widgets/btn/../../../lvgl.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/misc/lv_log.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/misc/../lv_conf_internal.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/misc/../lv_conf_kconfig.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/misc/../../lv_conf.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/misc/lv_types.h \
@@ -24,10 +24,10 @@ vendor/lvgl/examples/widgets/btn/lv_example_btn_2.d vendor/lvgl/examples/widgets
  ../vendor/lvgl/examples/widgets/btn/../../../src/hal/../draw/../lv_conf_internal.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/hal/../draw/../misc/lv_style.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/hal/../draw/../misc/../font/lv_font.h \
- ../vendor/lvgl/examples/widgets/btn/../../../src/hal/../draw/../misc/../font/../lv_conf_internal.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/hal/../draw/../misc/../font/lv_symbol_def.h \
- ../vendor/lvgl/examples/widgets/btn/../../../src/hal/../draw/../misc/../font/../misc/lv_area.h \
- /cygdrive/c/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/lvgl/src/lv_conf_internal.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/misc/lv_area.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/hal/../draw/../misc/lv_color.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/hal/../draw/../misc/../lv_conf_internal.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/hal/../draw/../misc/lv_assert.h \
@@ -154,7 +154,7 @@ vendor/lvgl/examples/widgets/btn/lv_example_btn_2.d vendor/lvgl/examples/widgets
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/libs/png/../../../lv_conf_internal.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/libs/gif/lv_gif.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/libs/gif/../../../lvgl.h \
- ../vendor/lvgl/examples/widgets/btn/../../../src/extra/libs/gif/../../../../lvgl.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/lvgl.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/libs/qrcode/lv_qrcode.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/libs/qrcode/../../../lvgl.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/libs/sjpg/lv_sjpg.h \
@@ -168,14 +168,14 @@ vendor/lvgl/examples/widgets/btn/lv_example_btn_2.d vendor/lvgl/examples/widgets
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/libs/tiny_ttf/../../../lvgl.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/lv_others.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/snapshot/lv_snapshot.h \
- ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/snapshot/../../../lv_conf_internal.h \
- ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/snapshot/../../../core/lv_obj.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/core/lv_obj.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/monkey/lv_monkey.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/monkey/../../../lvgl.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/gridnav/lv_gridnav.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/gridnav/../../../core/lv_obj.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/fragment/lv_fragment.h \
- ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/fragment/../../../lv_conf_internal.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/imgfont/lv_imgfont.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/imgfont/../../../lvgl.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/msg/lv_msg.h \
@@ -191,16 +191,16 @@ vendor/lvgl/examples/widgets/btn/lv_example_btn_2.d vendor/lvgl/examples/widgets
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/themes/basic/../../../core/lv_obj.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/lv_widgets.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/animimg/lv_animimg.h \
- ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/animimg/../../../lvgl.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lvgl.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/calendar/lv_calendar.h \
- ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/calendar/../../../widgets/lv_btnmatrix.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/widgets/lv_btnmatrix.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/calendar/lv_calendar_header_arrow.h \
- ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/calendar/../../../core/lv_obj.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/core/lv_obj.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/calendar/lv_calendar_header_dropdown.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/chart/lv_chart.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/chart/../../../lvgl.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/keyboard/lv_keyboard.h \
- ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/keyboard/../../../widgets/lv_btnmatrix.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/widgets/lv_btnmatrix.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/list/lv_list.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/list/../../../core/lv_obj.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/list/../../layouts/flex/lv_flex.h \
@@ -211,17 +211,17 @@ vendor/lvgl/examples/widgets/btn/lv_example_btn_2.d vendor/lvgl/examples/widgets
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/meter/lv_meter.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/meter/../../../lvgl.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/spinbox/lv_spinbox.h \
- ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/spinbox/../../../lvgl.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lvgl.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/spinner/lv_spinner.h \
- ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/spinner/../../../lvgl.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lvgl.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/tabview/lv_tabview.h \
- ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/tabview/../../../lvgl.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lvgl.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/tileview/lv_tileview.h \
- ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/tileview/../../../core/lv_obj.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/core/lv_obj.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/win/lv_win.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/win/../../../lvgl.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/colorwheel/lv_colorwheel.h \
- ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/colorwheel/../../../lvgl.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lvgl.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/led/lv_led.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/led/../../../lvgl.h \
  ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/imgbtn/lv_imgbtn.h \
@@ -263,7 +263,7 @@ vendor/lvgl/examples/widgets/btn/lv_example_btn_2.d vendor/lvgl/examples/widgets
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/misc/../lv_conf_internal.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/misc/../lv_conf_kconfig.h:
 
@@ -303,13 +303,13 @@ vendor/lvgl/examples/widgets/btn/lv_example_btn_2.d vendor/lvgl/examples/widgets
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/hal/../draw/../misc/../font/lv_font.h:
 
-../vendor/lvgl/examples/widgets/btn/../../../src/hal/../draw/../misc/../font/../lv_conf_internal.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h:
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/hal/../draw/../misc/../font/lv_symbol_def.h:
 
-../vendor/lvgl/examples/widgets/btn/../../../src/hal/../draw/../misc/../font/../misc/lv_area.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/misc/lv_area.h:
 
-/cygdrive/c/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/lvgl/src/lv_conf_internal.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h:
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/hal/../draw/../misc/lv_color.h:
 
@@ -563,7 +563,7 @@ vendor/lvgl/examples/widgets/btn/lv_example_btn_2.d vendor/lvgl/examples/widgets
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/libs/gif/../../../lvgl.h:
 
-../vendor/lvgl/examples/widgets/btn/../../../src/extra/libs/gif/../../../../lvgl.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/lvgl.h:
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/libs/qrcode/lv_qrcode.h:
 
@@ -591,9 +591,9 @@ vendor/lvgl/examples/widgets/btn/lv_example_btn_2.d vendor/lvgl/examples/widgets
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/snapshot/lv_snapshot.h:
 
-../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/snapshot/../../../lv_conf_internal.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h:
 
-../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/snapshot/../../../core/lv_obj.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/core/lv_obj.h:
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/monkey/lv_monkey.h:
 
@@ -605,7 +605,7 @@ vendor/lvgl/examples/widgets/btn/lv_example_btn_2.d vendor/lvgl/examples/widgets
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/fragment/lv_fragment.h:
 
-../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/fragment/../../../lv_conf_internal.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h:
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/others/imgfont/lv_imgfont.h:
 
@@ -637,15 +637,15 @@ vendor/lvgl/examples/widgets/btn/lv_example_btn_2.d vendor/lvgl/examples/widgets
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/animimg/lv_animimg.h:
 
-../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/animimg/../../../lvgl.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lvgl.h:
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/calendar/lv_calendar.h:
 
-../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/calendar/../../../widgets/lv_btnmatrix.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/widgets/lv_btnmatrix.h:
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/calendar/lv_calendar_header_arrow.h:
 
-../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/calendar/../../../core/lv_obj.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/core/lv_obj.h:
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/calendar/lv_calendar_header_dropdown.h:
 
@@ -655,7 +655,7 @@ vendor/lvgl/examples/widgets/btn/lv_example_btn_2.d vendor/lvgl/examples/widgets
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/keyboard/lv_keyboard.h:
 
-../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/keyboard/../../../widgets/lv_btnmatrix.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/widgets/lv_btnmatrix.h:
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/list/lv_list.h:
 
@@ -677,19 +677,19 @@ vendor/lvgl/examples/widgets/btn/lv_example_btn_2.d vendor/lvgl/examples/widgets
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/spinbox/lv_spinbox.h:
 
-../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/spinbox/../../../lvgl.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lvgl.h:
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/spinner/lv_spinner.h:
 
-../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/spinner/../../../lvgl.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lvgl.h:
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/tabview/lv_tabview.h:
 
-../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/tabview/../../../lvgl.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lvgl.h:
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/tileview/lv_tileview.h:
 
-../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/tileview/../../../core/lv_obj.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/core/lv_obj.h:
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/win/lv_win.h:
 
@@ -697,7 +697,7 @@ vendor/lvgl/examples/widgets/btn/lv_example_btn_2.d vendor/lvgl/examples/widgets
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/colorwheel/lv_colorwheel.h:
 
-../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/colorwheel/../../../lvgl.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lvgl.h:
 
 ../vendor/lvgl/examples/widgets/btn/../../../src/extra/widgets/led/lv_led.h:
 

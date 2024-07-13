@@ -229,14 +229,14 @@ int g_onoff_set(mesh_cmd_g_onoff_set_t *p_set, int par_len, int force_last, int 
 				//gpio_write(LED1,p_set->onoff);
 				set_on_power_up_onoff(idx, st_trans_type, p_set->onoff);
 				stt_sw3 = !p_set->onoff; // ON: 0, OFF: 1
-				On_Off_Led_SW(stt_sw1, stt_sw2, stt_sw3, stt_sw4);
+				//On_Off_Led_SW(stt_sw1, stt_sw2, stt_sw3, stt_sw4);
 
 
 			}else if(idx == 1){
 				//gpio_write(LED2, p_set->onoff);
 				set_on_power_up_onoff(idx, st_trans_type, p_set->onoff);
 				stt_sw4 = !p_set->onoff;
-				On_Off_Led_SW(stt_sw1, stt_sw2, stt_sw3, stt_sw4);
+				//On_Off_Led_SW(stt_sw1, stt_sw2, stt_sw3, stt_sw4);
 				if(!stt_sw4){
 					access_cmd_set_lightness(LED_ADDR,2,lum2_lightness(dim_set),0, &trs_par);
 				}else{

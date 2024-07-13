@@ -227,7 +227,7 @@ all: B91_mesh.elf secondary-outputs
 B91_mesh.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Andes C Linker'
-	$(CROSS_COMPILE)gcc -O2 -nostartfiles -static -L"/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/proj_lib" -flto -g3 -mcpu=d25f -ffunction-sections -fdata-sections -mext-dsp -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -fshort-wchar -fuse-ld=bfd -fpack-struct -T"/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/boot.link" -Wl,--gc-sections -mext-dsp -ldsp -lm -o "B91_mesh.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	$(CROSS_COMPILE)gcc -O2 -nostartfiles -static -L"/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/proj_lib" -flto -g3 -mcpu=d25f -ffunction-sections -fdata-sections -mext-dsp -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -fshort-wchar -fuse-ld=bfd -fpack-struct -T"/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/boot.link" -Wl,--gc-sections -mext-dsp -ldsp -lm -o "B91_mesh.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
@@ -272,7 +272,7 @@ clean:
 	-@echo ' '
 
 post-build:
-	-"C:\TelinkSDK_9xxx\My_Code\LCD_1IN28_lvgl-B91_9218\firmware/tl_check_fw.bat"   B91_mesh
+	-"C:\TelinkSDK_9xxx\My_Code\CT_NUM_XOAY-master\firmware/tl_check_fw.bat"   B91_mesh
 	-@echo ' '
 
 secondary-outputs: $(SYMBOL_OUTPUTS) $(READELF_OUTPUTS) $(OBJDUMP_OUTPUTS) $(SIZE_OUTPUTS)

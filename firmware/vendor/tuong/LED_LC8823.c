@@ -12,8 +12,10 @@ extern u8 stt_sw2;
 extern u8 stt_sw3;
 extern u8 stt_sw4;
 
+
 void On_Off_Led_SWxx(on_off_led_sw1 stt_sw1, on_off_led_sw2 stt_sw2, on_off_led_sw3 stt_sw3, on_off_led_sw4 stt_sw4);
 
+extern u8 flag_display;
 
 void Config_Pin_Led_Lc8823(void){
 	gpio_set_func(LED_DI, AS_GPIO);
@@ -220,34 +222,43 @@ void Blink_20_Led_Blue(void){
 
 void func_led_l(void){
 	for(u8 i = 9; i <=20; i++){
+		if(!flag_display)	break;
 		start_frame_led();
 		On_Off_Led_SWxx(stt_sw1, stt_sw2, stt_sw3, stt_sw4);
+		//On_Off_Led_SWxx(OFF_LED_SW1, OFF_LED_SW2, OFF_LED_SW3, OFF_LED_SW4);
 		On_Led(i,COLORx_LC8823);
 		end_frame_led();
 	}
 
 	start_frame_led();
 	On_Off_Led_SWxx(stt_sw1, stt_sw2, stt_sw3, stt_sw4);
+	//On_Off_Led_SWxx(OFF_LED_SW1, OFF_LED_SW2, OFF_LED_SW3, OFF_LED_SW4);
 	for(u8 i = 0;i<12;i++){
 		Off_Led();
 	}
 	end_frame_led();
+
 }
 
 void func_led_r(void){
 	for(u8 i = 20; i >= 9 ; i--){
+		if(!flag_display)	break;
+
 		start_frame_led();
 		On_Off_Led_SWxx(stt_sw1, stt_sw2, stt_sw3, stt_sw4);
+//		On_Off_Led_SWxx(OFF_LED_SW1, OFF_LED_SW2, OFF_LED_SW3, OFF_LED_SW4);
 		On_Led(i,YELLOW_LC8823);
 		end_frame_led();
 	}
 
 	start_frame_led();
 	On_Off_Led_SWxx(stt_sw1, stt_sw2, stt_sw3, stt_sw4);
+//	On_Off_Led_SWxx(OFF_LED_SW1, OFF_LED_SW2, OFF_LED_SW3, OFF_LED_SW4);
 	for(u8 i = 0;i<12;i++){
 		Off_Led();
 	}
 	end_frame_led();
+
 }
 
 

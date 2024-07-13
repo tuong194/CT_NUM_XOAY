@@ -47,7 +47,7 @@
 sys_clk_t sys_clk = {
 	.pll_clk = 192,
 	.cclk = 24,
-	.hclk = 24,
+	.hclk = 24,    // default 24
 	.pclk = 24,
 	.mspi_clk = 24,
 };

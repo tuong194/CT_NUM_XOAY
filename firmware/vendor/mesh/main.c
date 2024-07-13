@@ -42,16 +42,16 @@
 #include "../tuong/LED_LC8823.h"
 
 
-unsigned short div; unsigned char bwpc;
+unsigned short div; unsigned char bwpc; // uart
 
  _Bool ec1;
  _Bool ec2;
 static _Bool ec1_temp = 0, ec2_temp = 0;
 
-int lastEncoded;
+extern int cnt_print_value;
+extern u8 flag_display;
+int cnt_led_tick;
 int encoder_value1;
-int encoder_value2;
-int sub_encoder = 0;
 u8 check_encoder_r_l;
 
 u8 buff_test[8];
@@ -98,6 +98,23 @@ _attribute_ram_code_ void irq_uart_handle()
 #endif
 #endif
 
+
+//T_NOTE: Timer 0
+/*****************************************************************/
+#if IRQ_TIMER0_ENABLE
+	#if __TLSR_RISCV_EN__
+_attribute_ram_code_sec_ void timer0_irq_handler(void)
+{
+	if(timer_get_irq_status(TMR_STA_TMR0))
+	{
+		cnt_led_tick++;
+		timer_clr_irq_status(TMR_STA_TMR0);
+	}
+}
+	#endif
+#endif
+/****************************************************************/
+
 #if IRQ_TIMER1_ENABLE
 	#if __TLSR_RISCV_EN__
 int timer1_irq_cnt = 0;
@@ -105,6 +122,7 @@ _attribute_ram_code_sec_ void timer1_irq_handler(void)
 {
 	if(timer_get_irq_status(TMR_STA_TMR1))
 	{
+
 		lv_tick_inc(1);
 		timer_clr_irq_status(TMR_STA_TMR1);
 		timer1_irq_cnt++;
@@ -137,6 +155,8 @@ _attribute_ram_code_sec_noinline_ void gpio_irq_handler(void)
 _attribute_ram_code_sec_noinline_ void gpio_risc0_irq_handler(void)
 {
 	if(ec1 != gpio_read(ENCODER1)){
+		flag_display =0;
+		cnt_print_value=0;
 		if(gpio_read(ENCODER2) == 0){
 			encoder_value1 --;
 			if(encoder_value1 <= 0 || encoder_value1 >= 100){
@@ -149,6 +169,7 @@ _attribute_ram_code_sec_noinline_ void gpio_risc0_irq_handler(void)
 			if(encoder_value1 >= 100) encoder_value1 = 100;
 			check_encoder_r_l = 2;
 		}
+
 	}
 
 
@@ -160,6 +181,8 @@ _attribute_ram_code_sec_noinline_ void gpio_risc1_irq_handler(void)
 {
 
 	if(ec2 != gpio_read(ENCODER2)){
+		flag_display =0;
+		cnt_print_value=0;
 		if(gpio_read(ENCODER1) == 0){
 			encoder_value1 --;
 			if(encoder_value1 <= 0 || encoder_value1 >= 100){
@@ -172,6 +195,7 @@ _attribute_ram_code_sec_noinline_ void gpio_risc1_irq_handler(void)
 			if(encoder_value1 >= 100) encoder_value1 = 100;
 			check_encoder_r_l = 2;
 		}
+
 	}
 
 
@@ -369,20 +393,18 @@ _attribute_ram_code_ int main (void)    //must run in ramcode
 		uart_cal_div_and_bwpc(115200,sys_clk.pclk*1000000, &div, &bwpc);
 		uart_init(UART0,div,bwpc,UART_PARITY_NONE,UART_PARITY_NONE);
 		uart_set_pin(UART0_TX_PD2,UART0_RX_PD3);
-//		uart_init(UART0,12,15,UART_PARITY_NONE,UART_STOP_BIT_ONE); // sysclock = 24M
+//		uart_init(UART0,12,15,UART_PARITY_NONE,UART_STOP_BIT_ONE); //
 //		uart_set_pin(UART0_TX_PD2,UART0_RX_PD3);
 
 
 
 		gpio_set_func(ENCODER1,AS_GPIO);
 		gpio_input_en(ENCODER1);
-//		gpio_set_up_down_res(ENCODER1,GPIO_PIN_UP_DOWN_FLOAT);
 		gpio_set_interrupt_init(ENCODER1,GPIO_PIN_UP_DOWN_FLOAT, INTR_RISING_EDGE, IRQ26_GPIO2RISC0 );
 
 
 		gpio_set_func(ENCODER2,AS_GPIO);
 		gpio_input_en(ENCODER2);
-//		gpio_set_up_down_res(ENCODER2,GPIO_PIN_UP_DOWN_FLOAT);
 		gpio_set_interrupt_init(ENCODER2,GPIO_PIN_UP_DOWN_FLOAT, INTR_FALLING_EDGE, IRQ27_GPIO2RISC1 );
 
 
@@ -398,16 +420,9 @@ _attribute_ram_code_ int main (void)    //must run in ramcode
 		getValue();
 		Setting_stt_led();
 
-		Blink_20_Led_Green();
-		Blink_20_Led_Blue();
-		Blink_20_Led_Red();
-		On_Off_Led_SW(ON_LED_SW1,ON_LED_SW2,ON_LED_SW3,ON_LED_SW4);
-
+		On_Off_Led_SW(ON_LED_SW1, ON_LED_SW2 , stt_sw3, stt_sw4);
 		ec1 = gpio_read(ENCODER1);
 		ec2 = gpio_read(ENCODER2);
-
-		encoder_value1=encoder_value2=10;
-
 	}
 
     irq_enable();
@@ -429,34 +444,20 @@ _attribute_ram_code_ int main (void)    //must run in ramcode
 //		{
 //			if(ec1_temp ^ ec2_temp)
 //			{
-//				//func_led_l();
-//				encoder_value1 -- ;
-//				if(encoder_value1 <= 0 || encoder_value1 >= 100){
-//					encoder_value1 = 0;
-//				}
-//				sprintf(buff_test, "%d\n",encoder_value1);
-//				uart_send(UART0,buff_test,6);
 //				check_encoder_r_l = 1;
 //
 //			} else {
-//				//func_led_r();
-//				encoder_value1 ++ ;
-//				if(encoder_value1 >= 100) encoder_value1 = 100;
-//				sprintf(buff_test, "%d\n",encoder_value1);
-//				uart_send(UART0,buff_test,6);
 //				check_encoder_r_l = 2;
 //			}
 //			//ec1 = gpio_read(ENCODER1);
 //		}
 
-
-		check_OTA();
-		check_provision();
-		displayClock();
-		check_Scene();
-		read_sw();
-		Encoder_Control();
-
+			check_OTA();
+			check_provision();
+			displayClock();
+			check_Scene();
+			read_sw();
+			Encoder_Control();
 
 	}
 	return 0;

@@ -4,7 +4,7 @@ vendor/lvgl/examples/get_started/lv_example_get_started_1.d vendor/lvgl/examples
  ../vendor/lvgl/examples/get_started/../../lvgl.h \
  ../vendor/lvgl/examples/get_started/../../src/misc/lv_log.h \
  ../vendor/lvgl/examples/get_started/../../src/misc/../lv_conf_internal.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
  ../vendor/lvgl/examples/get_started/../../src/misc/../lv_conf_kconfig.h \
  ../vendor/lvgl/examples/get_started/../../src/misc/../../lv_conf.h \
  ../vendor/lvgl/examples/get_started/../../src/misc/lv_types.h \
@@ -27,7 +27,7 @@ vendor/lvgl/examples/get_started/lv_example_get_started_1.d vendor/lvgl/examples
  ../vendor/lvgl/examples/get_started/../../src/hal/../draw/../misc/../font/../lv_conf_internal.h \
  ../vendor/lvgl/examples/get_started/../../src/hal/../draw/../misc/../font/lv_symbol_def.h \
  ../vendor/lvgl/examples/get_started/../../src/hal/../draw/../misc/../font/../misc/lv_area.h \
- /cygdrive/c/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/lvgl/src/lv_conf_internal.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h \
  ../vendor/lvgl/examples/get_started/../../src/hal/../draw/../misc/lv_color.h \
  ../vendor/lvgl/examples/get_started/../../src/hal/../draw/../misc/../lv_conf_internal.h \
  ../vendor/lvgl/examples/get_started/../../src/hal/../draw/../misc/lv_assert.h \
@@ -221,7 +221,7 @@ vendor/lvgl/examples/get_started/lv_example_get_started_1.d vendor/lvgl/examples
  ../vendor/lvgl/examples/get_started/../../src/extra/widgets/win/lv_win.h \
  ../vendor/lvgl/examples/get_started/../../src/extra/widgets/win/../../../lvgl.h \
  ../vendor/lvgl/examples/get_started/../../src/extra/widgets/colorwheel/lv_colorwheel.h \
- ../vendor/lvgl/examples/get_started/../../src/extra/widgets/colorwheel/../../../lvgl.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lvgl.h \
  ../vendor/lvgl/examples/get_started/../../src/extra/widgets/led/lv_led.h \
  ../vendor/lvgl/examples/get_started/../../src/extra/widgets/led/../../../lvgl.h \
  ../vendor/lvgl/examples/get_started/../../src/extra/widgets/imgbtn/lv_imgbtn.h \
@@ -263,7 +263,7 @@ vendor/lvgl/examples/get_started/lv_example_get_started_1.d vendor/lvgl/examples
 
 ../vendor/lvgl/examples/get_started/../../src/misc/../lv_conf_internal.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
 
 ../vendor/lvgl/examples/get_started/../../src/misc/../lv_conf_kconfig.h:
 
@@ -309,7 +309,7 @@ vendor/lvgl/examples/get_started/lv_example_get_started_1.d vendor/lvgl/examples
 
 ../vendor/lvgl/examples/get_started/../../src/hal/../draw/../misc/../font/../misc/lv_area.h:
 
-/cygdrive/c/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/lvgl/src/lv_conf_internal.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h:
 
 ../vendor/lvgl/examples/get_started/../../src/hal/../draw/../misc/lv_color.h:
 
@@ -697,7 +697,7 @@ vendor/lvgl/examples/get_started/lv_example_get_started_1.d vendor/lvgl/examples
 
 ../vendor/lvgl/examples/get_started/../../src/extra/widgets/colorwheel/lv_colorwheel.h:
 
-../vendor/lvgl/examples/get_started/../../src/extra/widgets/colorwheel/../../../lvgl.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lvgl.h:
 
 ../vendor/lvgl/examples/get_started/../../src/extra/widgets/led/lv_led.h:
 

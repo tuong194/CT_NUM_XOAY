@@ -40,26 +40,13 @@ void SPI_Config(void)
 	hspi_set_pin(&configPin);
 
 	spi_master_init(HSPI_MODULE,sys_clk.hclk*1000000/(2*SPI_CLOCK)-1,SPI_MODE0);//f=12 MHz
+//	spi_master_init(HSPI_MODULE,0xff,SPI_MODE0);  // f spi = (max 48 M)
 	spi_master_config(HSPI_MODULE,SPI_3LINE);
+//	hspi_set_tx_dma_config(DMA2);
+//	spi_set_irq_mask(HSPI_MODULE, SPI_END_INT_EN);
 }
 
-void SPI2_Config(void){
-	// config Pin
-	gpio_set_func(RST_Pin,func);
-	gpio_output_en(RST_Pin);
-	gpio_write(RST_Pin,1);
-	gpio_set_func(DC_Pin,func);
-	gpio_output_en(DC_Pin);
-	//config spi
-	pspi_pin_config_t config_pin;
-	config_pin.pspi_clk_pin = PSPI_CLK_PC5;
-	config_pin.pspi_csn_pin = PSPI_CSN_PC4;
-	config_pin.pspi_miso_io1_pin = PSPI_MISO_IO1_PC6;
-	config_pin.pspi_mosi_io0_pin = PSPI_MOSI_IO0_PC7;
-	pspi_set_pin(&config_pin);
-	spi_master_init(PSPI_MODULE,sys_clk.hclk*1000000/(2*SPI_CLOCK)-1,SPI_MODE0);//f=12 MHz
-	spi_master_config(PSPI_MODULE,SPI_3LINE);
-}
+
 
 void LCD_SetBacklight(int value){
 	pwm_set_pwm0_pulse_num(value);
@@ -80,20 +67,22 @@ void LCD_SendCmd(u8 cmd){
 	u8 cmdx[5];
 	cmdx[0]=cmd;
 	gpio_write(DC_Pin,0);
-	spi_master_write(HSPI_MODULE,cmdx,1);
+	spi_master_write(HSPI_MODULE, cmdx, 1);
 }
 void LCD_SendData8bit(u8 data){
 	u8 datax[5];
 	datax[0] = data;
 	gpio_write(DC_Pin,1);
-	spi_master_write(HSPI_MODULE,datax,1);
+	spi_master_write(HSPI_MODULE, datax, 1);
+
 }
 void LCD_SendData16bit(u16 data){
 	u8 datax[5];
 	datax[0]=data>>8;
 	datax[1]=data;
 	gpio_write(DC_Pin,1);
-	spi_master_write(HSPI_MODULE,datax,2);
+	spi_master_write(HSPI_MODULE, datax, 2);
+
 
 }
 
@@ -446,7 +435,8 @@ void LCD_Clear(u16 color){
 	gpio_write(DC_Pin,1);
 	for( i=0;i<240;i++){
 		for( j=0;j<240;j++){
-			spi_master_write(HSPI_MODULE,data,2);
+//			spi_master_write(HSPI_MODULE,data,2);
+			spi_master_write(HSPI_MODULE, data, 2);
 			wd_clear();
 		}
 	}

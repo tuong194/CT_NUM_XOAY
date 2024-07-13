@@ -3,7 +3,7 @@ vendor/lvgl/examples/assets/img_star.d vendor/lvgl/examples/assets/img_star.o: \
  ../vendor/lvgl/examples/assets/../../lvgl.h \
  ../vendor/lvgl/examples/assets/../../src/misc/lv_log.h \
  ../vendor/lvgl/examples/assets/../../src/misc/../lv_conf_internal.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
  ../vendor/lvgl/examples/assets/../../src/misc/../lv_conf_kconfig.h \
  ../vendor/lvgl/examples/assets/../../src/misc/../../lv_conf.h \
  ../vendor/lvgl/examples/assets/../../src/misc/lv_types.h \
@@ -26,7 +26,7 @@ vendor/lvgl/examples/assets/img_star.d vendor/lvgl/examples/assets/img_star.o: \
  ../vendor/lvgl/examples/assets/../../src/hal/../draw/../misc/../font/../lv_conf_internal.h \
  ../vendor/lvgl/examples/assets/../../src/hal/../draw/../misc/../font/lv_symbol_def.h \
  ../vendor/lvgl/examples/assets/../../src/hal/../draw/../misc/../font/../misc/lv_area.h \
- ../vendor/lvgl/examples/assets/../../src/hal/../draw/../misc/../font/../misc/../lv_conf_internal.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h \
  ../vendor/lvgl/examples/assets/../../src/hal/../draw/../misc/lv_color.h \
  ../vendor/lvgl/examples/assets/../../src/hal/../draw/../misc/../lv_conf_internal.h \
  ../vendor/lvgl/examples/assets/../../src/hal/../draw/../misc/lv_assert.h \
@@ -234,7 +234,7 @@ vendor/lvgl/examples/assets/img_star.d vendor/lvgl/examples/assets/img_star.o: \
 
 ../vendor/lvgl/examples/assets/../../src/misc/../lv_conf_internal.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
 
 ../vendor/lvgl/examples/assets/../../src/misc/../lv_conf_kconfig.h:
 
@@ -280,7 +280,7 @@ vendor/lvgl/examples/assets/img_star.d vendor/lvgl/examples/assets/img_star.o: \
 
 ../vendor/lvgl/examples/assets/../../src/hal/../draw/../misc/../font/../misc/lv_area.h:
 
-../vendor/lvgl/examples/assets/../../src/hal/../draw/../misc/../font/../misc/../lv_conf_internal.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h:
 
 ../vendor/lvgl/examples/assets/../../src/hal/../draw/../misc/lv_color.h:
 

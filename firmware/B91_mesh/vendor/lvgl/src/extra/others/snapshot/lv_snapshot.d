@@ -1,7 +1,7 @@
 vendor/lvgl/src/extra/others/snapshot/lv_snapshot.d vendor/lvgl/src/extra/others/snapshot/lv_snapshot.o: \
  ../vendor/lvgl/src/extra/others/snapshot/lv_snapshot.c \
  ../vendor/lvgl/src/extra/others/snapshot/lv_snapshot.h \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../lv_conf_internal.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../lv_conf_kconfig.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../../lv_conf.h \
@@ -12,7 +12,7 @@ vendor/lvgl/src/extra/others/snapshot/lv_snapshot.d vendor/lvgl/src/extra/others
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../misc/../font/../lv_conf_internal.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../misc/../font/lv_symbol_def.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../misc/../font/../misc/lv_area.h \
- ../vendor/lvgl/src/extra/others/snapshot/../../../core/../misc/../font/../misc/../lv_conf_internal.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../misc/lv_color.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../misc/../lv_conf_internal.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../misc/lv_assert.h \
@@ -42,7 +42,7 @@ vendor/lvgl/src/extra/others/snapshot/lv_snapshot.d vendor/lvgl/src/extra/others
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/../misc/lv_color.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/../misc/lv_area.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/../misc/lv_fs.h \
- ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/../misc/../lv_conf_internal.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/../misc/lv_types.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/lv_img_cache.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/lv_draw_rect.h \
@@ -51,7 +51,7 @@ vendor/lvgl/src/extra/others/snapshot/lv_snapshot.d vendor/lvgl/src/extra/others
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/sw/../../misc/lv_style.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/sw/lv_draw_sw_dither.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/sw/../../core/lv_obj_pos.h \
- /cygdrive/c/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/lvgl/src/misc/lv_area.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/misc/lv_area.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/lv_draw_label.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/../misc/lv_bidi.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/lv_draw_img.h \
@@ -68,7 +68,7 @@ vendor/lvgl/src/extra/others/snapshot/lv_snapshot.d vendor/lvgl/src/extra/others
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../misc/lv_timer.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../misc/../lv_conf_internal.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../misc/../hal/lv_hal_tick.h \
- ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../misc/../hal/../lv_conf_internal.h \
+ /cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/lv_hal_indev.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../lv_conf_internal.h \
  ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/lv_hal_tick.h \
@@ -88,7 +88,7 @@ vendor/lvgl/src/extra/others/snapshot/lv_snapshot.d vendor/lvgl/src/extra/others
 
 ../vendor/lvgl/src/extra/others/snapshot/lv_snapshot.h:
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
 
 ../vendor/lvgl/src/extra/others/snapshot/../../../lv_conf_internal.h:
 
@@ -110,7 +110,7 @@ vendor/lvgl/src/extra/others/snapshot/lv_snapshot.d vendor/lvgl/src/extra/others
 
 ../vendor/lvgl/src/extra/others/snapshot/../../../core/../misc/../font/../misc/lv_area.h:
 
-../vendor/lvgl/src/extra/others/snapshot/../../../core/../misc/../font/../misc/../lv_conf_internal.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h:
 
 ../vendor/lvgl/src/extra/others/snapshot/../../../core/../misc/lv_color.h:
 
@@ -170,7 +170,7 @@ vendor/lvgl/src/extra/others/snapshot/lv_snapshot.d vendor/lvgl/src/extra/others
 
 ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/../misc/lv_fs.h:
 
-../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/../misc/../lv_conf_internal.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h:
 
 ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/../misc/lv_types.h:
 
@@ -188,7 +188,7 @@ vendor/lvgl/src/extra/others/snapshot/lv_snapshot.d vendor/lvgl/src/extra/others
 
 ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/sw/../../core/lv_obj_pos.h:
 
-/cygdrive/c/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/lvgl/src/misc/lv_area.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/misc/lv_area.h:
 
 ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../draw/lv_draw_label.h:
 
@@ -222,7 +222,7 @@ vendor/lvgl/src/extra/others/snapshot/lv_snapshot.d vendor/lvgl/src/extra/others
 
 ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../misc/../hal/lv_hal_tick.h:
 
-../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/../misc/../hal/../lv_conf_internal.h:
+/cygdrive/c/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/lvgl/src/lv_conf_internal.h:
 
 ../vendor/lvgl/src/extra/others/snapshot/../../../core/../hal/lv_hal_indev.h:
 

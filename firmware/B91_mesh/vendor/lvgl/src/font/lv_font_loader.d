@@ -1,6 +1,6 @@
 vendor/lvgl/src/font/lv_font_loader.d vendor/lvgl/src/font/lv_font_loader.o: \
  ../vendor/lvgl/src/font/lv_font_loader.c \
- /cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
+ /cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
  ../vendor/lvgl/src/font/../lvgl.h ../vendor/lvgl/src/font/../../lvgl.h \
  ../vendor/lvgl/src/font/../../src/misc/lv_log.h \
  ../vendor/lvgl/src/font/../../src/misc/../lv_conf_internal.h \
@@ -229,7 +229,7 @@ vendor/lvgl/src/font/lv_font_loader.d vendor/lvgl/src/font/lv_font_loader.o: \
  ../vendor/lvgl/src/font/../misc/lv_fs.h \
  ../vendor/lvgl/src/font/lv_font_loader.h
 
-/cygdrive/C/TelinkSDK_9xxx/My_Code/LCD_1IN28_lvgl-B91_9218/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
+/cygdrive/C/TelinkSDK_9xxx/My_Code/CT_NUM_XOAY-master/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
 
 ../vendor/lvgl/src/font/../lvgl.h:
 

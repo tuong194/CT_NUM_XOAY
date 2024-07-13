@@ -3,9 +3,6 @@
 #define _LCD_LVGL_H_
 
 
-
-
-
 #ifdef __cplusplus
 extern "C" {
 #endif

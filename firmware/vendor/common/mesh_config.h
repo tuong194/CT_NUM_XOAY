@@ -1046,6 +1046,8 @@ extern "C" {
 #define			IRQ_TIME1_INTERVAL			    (1000) // unit: us
 #define			IRQ_GPIO_ENABLE  			    1
 
+#define			IRQ_TIMER0_ENABLE  			    1   //T_NOTE define Timer0
+#define			IRQ_TIME0_INTERVAL			    (20) // unit: us
 
 #if (WIN32)
 // support extend adv, but disable as default. to change by selecting "Extend Adv" item list.

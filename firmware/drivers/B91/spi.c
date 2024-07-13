@@ -825,8 +825,11 @@ void spi_set_rx_dma(spi_sel_e spi_sel, unsigned char* dst_addr,unsigned int len)
  */
 void spi_master_write_dma(spi_sel_e spi_sel, unsigned char *src_addr, unsigned int len)
 {
+	    //T_NOTE
+	//hspi_reset(); // T_NOTE
 	unsigned char tx_dma_chn;
 	spi_tx_fifo_clr(spi_sel);
+
 	spi_tx_dma_en(spi_sel);
 	spi_tx_cnt(spi_sel, len);
 	spi_set_transmode(spi_sel, SPI_MODE_WRITE_ONLY);
@@ -840,6 +843,8 @@ void spi_master_write_dma(spi_sel_e spi_sel, unsigned char *src_addr, unsigned i
 	}
 	spi_set_dma(tx_dma_chn,(unsigned int)src_addr, reg_spi_data_buf_adr(spi_sel), len);
 	spi_set_cmd(spi_sel, 0x00);
+//	spi_set_irq_mask(HSPI_MODULE, SPI_END_INT_EN);
+//	while (spi_is_busy(spi_sel));  //T_NOTE
 }
 
 /**

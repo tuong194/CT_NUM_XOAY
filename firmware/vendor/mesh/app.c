@@ -609,6 +609,19 @@ _attribute_no_inline_ void main_loop () // must add no inline, or it will be inl
 #endif
 }
 
+#if IRQ_TIMER0_ENABLE   // T_NOTE Timer 0
+	#if __TLSR_RISCV_EN__
+void light_hw_timer0_config(void)
+{
+	plic_interrupt_enable(IRQ4_TIMER0);
+	timer_set_init_tick(TIMER0, 0);
+	timer_set_cap_tick(TIMER0, IRQ_TIME0_INTERVAL * sys_clk.pclk);
+	timer_set_mode(TIMER0, TIMER_MODE_SYSCLK);
+    timer_start(TIMER0);
+}
+	#endif
+#endif
+
 #if IRQ_TIMER1_ENABLE
 	#if __TLSR_RISCV_EN__
 void light_hw_timer1_config(void)
@@ -907,6 +920,10 @@ _attribute_no_inline_ void user_init() // must add no inline, or it will be inli
 #endif
 #if IRQ_TIMER1_ENABLE
     light_hw_timer1_config();
+#endif
+
+#if IRQ_TIMER0_ENABLE  // T_NOTE: Config timer0
+    light_hw_timer0_config();
 #endif
 #if IRQ_GPIO_ENABLE
 	gpio_set_interrupt_init(IRQ_GPIO_SELECT, PM_PIN_PULLUP_10K, INTR_FALLING_EDGE, IRQ25_GPIO); // An interrupt is triggered when PD2 is low
